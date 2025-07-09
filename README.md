@@ -521,7 +521,7 @@ config:
     receivers:
     - name: 'slack-notification'
       slack_configs:
-          - api_url: 'https://hooks.slack.com/services/T08ULBZB5UY/B08U0CE3DEG/OivCLYq28gNzz4TabiY5zUj'
+          - api_url: 'https://hooks.slack.com/services/YOUR_WORKSPACE_ID/YOUR_CHANNEL_ID/YOUR_TOKEN'
             channel: '#alerts'
             send_resolved: true
     templates:
