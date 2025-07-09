@@ -1,4 +1,4 @@
-@Library('Shared') _
+@Library('waleed-jenkins-libraries') _
 
 pipeline {
     agent any
@@ -24,7 +24,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 script {
-                    clone("https://github.com/wnaveed5/tws-e-commerce-app_hackathon","master")
+                    clone("https://github.com/wnaveed5/waleed-ecommerce-app","master")
                 }
             }
         }
